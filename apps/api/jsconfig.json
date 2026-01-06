@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",              // modern JS version
+    "module": "commonjs",            // Node.js module system
+    "rootDir": "src",                // source folder
+    "outDir": "dist",                // output folder if transpiling with Babel/TS
+    "strict": false,                 // not needed in JS, can keep false
+    "esModuleInterop": true,         // for importing CommonJS modules
+    "skipLibCheck": true,            
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src"],                // only include src folder
+  "exclude": ["dist", "build", "node_modules"]
+}

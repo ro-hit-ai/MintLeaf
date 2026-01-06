@@ -1,0 +1,51 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "noEmit": true,
+    "incremental": true,
+    "module": "esnext",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "**/*.js",
+    "**/*.jsx",
+    "src/shadcn/hooks/useTicketActions.js",
+    "src/shadcn/hooks/use-toast.jsx",
+    "src/shadcn/hooks/use-mobile.jsx",
+    "src/shadcn/hooks/use-media-query.jsx",
+    "src/shadcn/components/team-switcher.jsx",
+    "src/shadcn/components/nav-user.jsx",
+    "src/shadcn/components/nav-projects.jsx",
+    "src/shadcn/components/nav-main.jsx",
+    "src/shadcn/components/forbidden.jsx",
+    "src/shadcn/components/command-menu.jsx",
+    "src/shadcn/components/app-sidebar.jsx",
+    "src/shadcn/components/tickets/ViewSettings.jsx",
+    "src/shadcn/components/tickets/TicketList.jsx",
+    "src/shadcn/components/tickets/TicketKanban.jsx",
+    "src/shadcn/components/tickets/TicketFilters.jsx",
+    "src/shadcn/components/tickets/FilterBadge.jsx",
+    "src/shadcn/components/tickets/DisplaySettings.jsx",
+    "src/shadcn/block/GlobalShortcut.jsx",
+    "src/shadcn/lib/hasAccess.js",
+    "src/shadcn/lib/utils.js",
+    "src/shadcn/hooks/useTicketView.js",
+    "src/shadcn/hooks/useTicketFilters.js"
+  ],
+  "exclude": ["node_modules"]
+}

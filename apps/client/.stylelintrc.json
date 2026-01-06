@@ -1,0 +1,1 @@
+{"extends":["stylelint-config-standard","stylelint-config-tailwindcss"],"rules":{"comment-no-empty":true,"custom-property-empty-line-before":null,"selector-class-pattern":null}}

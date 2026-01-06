@@ -1,0 +1,83 @@
+# =====================
+# Dependencies
+# =====================
+node_modules/
+.pnp/
+.pnp.js
+.yarn/
+
+# =====================
+# Environment files
+# =====================
+.env
+.env.*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# =====================
+# Python
+# =====================
+.venv/
+__pycache__/
+*.pyc
+
+# =====================
+# Logs & temp
+# =====================
+logs/
+*.log
+*.audit.json
+tsconfig.tsbuildinfo
+
+# =====================
+# Build output
+# =====================
+dist/
+build/
+.next/
+out/
+coverage/
+
+# =====================
+# OS junk
+# =====================
+.DS_Store
+Thumbs.db
+
+# =====================
+# Debug
+# =====================
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# =====================
+# Turbo / Vercel
+# =====================
+.turbo/
+.vercel/
+
+# =====================
+# Archives
+# =====================
+*.zip
+*.tar
+*.rar
+*.7z
+
+# =====================
+# Misc
+# =====================
+.cursorrules
+infra/
+.aider*
+
+# =====================
+# DO NOT IGNORE THESE
+# =====================
+# package.json
+# package-lock.json
+# yarn.lock
+
